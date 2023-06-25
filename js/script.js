@@ -1,8 +1,8 @@
 import * as THREE from 'three';
 
-import { EffectComposer } from '../../jsm/postprocessing/EffectComposer.js';
-import { RenderPass } from '../../jsm/postprocessing/RenderPass.js';
-import { UnrealBloomPass } from '../../jsm/postprocessing/UnrealBloomPass.js';
+import { EffectComposer } from '../jsm/postprocessing/EffectComposer.js';
+import { RenderPass } from '../jsm/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from '../jsm/postprocessing/UnrealBloomPass.js';
 
 let container;
 let camera, scene, renderer;
